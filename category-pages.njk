@@ -1,0 +1,10 @@
+---
+layout: layouts/base.njk
+pagination:
+    data: categories
+    size: 1
+    alias: category
+permalink: "/{{ category.name | slugify }}"
+---
+
+{{ category.name }} has parent {{ category.parent }}

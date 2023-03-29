@@ -1,0 +1,30 @@
+[
+    {
+        "name": "2D",
+        "parent": null
+    },
+    {
+        "name": "3D",
+        "parent": null
+    },
+    {
+        "name": "audio",
+        "parent": null
+    },
+    {
+        "name": "model",
+        "parent": "3D"
+    },
+    {
+        "name": "sprite",
+        "parent": "2D"
+    },
+    {
+        "name": "music",
+        "parent": "audio"
+    },
+    {
+        "name": "SFX",
+        "parent": "audio"
+    }
+]
