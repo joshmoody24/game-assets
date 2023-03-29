@@ -9,7 +9,7 @@
         {%- for category in categories -%}
         {%- if not category.parent -%}
           <li class="nav-item">
-            <a class="nav-link {{ 'active' if '/blog' in page.url }} text-capitalize" href="/{{ category.name | slugify }}">
+            <a class="nav-link {{ 'active' if category.name.toLowerCase() in page.url }} text-capitalize" href="/{{ category.name | slugify }}">
               {{ category.name }}
             </a>
           </li>
