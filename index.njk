@@ -15,5 +15,17 @@ layout: layouts/base.njk
 </p>
 
 <h2>Browse Assets by Category</h2>
+<div class="d-flex flex-row">
+{%- for category in categories -%}
+{%- if category.parent -%}
+    <div>
+        <a href="/{{category.name}}" class="btn btn-outline-{{ category.color }} rounded-circle text-capitalize">
+            <i class="bi bi-{{category.icon}}"></i>
+            {{ category.name }}
+        </a>
+    </div>
+{%- endif -%}
+{%- endfor -%}
+</div>
 
-<h2>Popular Assets</h2>
+<h2>Featured Assets</h2>

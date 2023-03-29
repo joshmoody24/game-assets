@@ -13,18 +13,32 @@
     },
     {
         "name": "model",
-        "parent": "3D"
+        "parent": "3D",
+        "color": "primary",
+        "icon": "box"
     },
     {
         "name": "sprite",
-        "parent": "2D"
+        "parent": "2D",
+        "color": "success",
+        "icon": "brush"
+    },
+    {
+        "name": "texture",
+        "parent": "2D",
+        "color": "info",
+        "icon": "easel"
     },
     {
         "name": "music",
-        "parent": "audio"
+        "parent": "audio",
+        "color": "danger",
+        "icon": "music-note-beamed"
     },
     {
         "name": "SFX",
-        "parent": "audio"
+        "parent": "audio",
+        "color": "warning",
+        "icon": "soundwave"
     }
 ]
