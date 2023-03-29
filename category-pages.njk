@@ -5,6 +5,15 @@ pagination:
     size: 1
     alias: category
 permalink: "/{{ category.name | slugify }}"
+eleventyComputed:
+    title: "{{category.display_name}}"
 ---
 
-{{ category.name }} has parent {{ category.parent }}
+<h1 class="text-capitalize">{{ category.display_name }}</h1>
+{%- for asset in game_assets -%}
+{%- if asset.category == category.name -%}
+<div>
+    {{ asset.title}}
+</div>
+{%- endif -%}
+{%- endfor -%}

@@ -1,42 +1,53 @@
 [
     {
         "name": "2D",
+        "display_name": "2D Assets",
         "parent": null
     },
     {
         "name": "3D",
+        "display_name": "3D Assets",
         "parent": null
     },
     {
         "name": "audio",
+        "display_name": "Audio Assets",
         "parent": null
     },
     {
-        "name": "model",
-        "parent": "3D",
-        "color": "primary",
-        "icon": "box"
-    },
-    {
         "name": "sprite",
+        "plural_name": "sprites",
+        "display_name": "Sprites",
         "parent": "2D",
         "color": "success",
         "icon": "brush"
     },
     {
         "name": "texture",
+        "plural_name": "textures",
+        "display_name": "Textures",
         "parent": "2D",
         "color": "info",
         "icon": "easel"
     },
     {
+        "name": "model",
+        "plural_name": "models",
+        "display_name": "3D Models",
+        "parent": "3D",
+        "color": "primary",
+        "icon": "box"
+    },
+    {
         "name": "music",
+        "display_name": "Music",
         "parent": "audio",
         "color": "danger",
         "icon": "music-note-beamed"
     },
     {
         "name": "SFX",
+        "display_name": "Sound Effects",
         "parent": "audio",
         "color": "warning",
         "icon": "soundwave"

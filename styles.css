@@ -1,0 +1,22 @@
+.asset-categories {
+    display: grid;
+    grid-template-columns: 5rem 5rem 5rem 5rem 5rem;
+}
+
+.asset-categories > div {
+    aspect-ratio: 1;
+}
+
+.asset-categories > div > a {
+    height: 100%;
+}
+
+.asset-categories > div > a > i {
+    display: block;
+    font-size: 1.3rem;
+}
+
+.asset-categories > div > a > div {
+    display: block;
+    font-size: 0.9rem;
+}

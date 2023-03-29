@@ -3,29 +3,39 @@ title: Homepage
 layout: layouts/base.njk
 ---
 
-<h1>Game Assets for everyone. Free of charge.</h1>
-<p>
-    This is a platform for sharing public domain video game assets—
-    Sprites, textures, 3D models, music, sound effects, you name it.
-</p>
-<p>
-    Everything on this site is public domain.
-    You can use it all for any purpose, free of charge, forever.
-    No attribution required.
-</p>
-
-<h2>Browse Assets by Category</h2>
-<div class="d-flex flex-row">
-{%- for category in categories -%}
-{%- if category.parent -%}
-    <div>
-        <a href="/{{category.name}}" class="btn btn-outline-{{ category.color }} rounded-circle text-capitalize">
-            <i class="bi bi-{{category.icon}}"></i>
-            {{ category.name }}
-        </a>
+<div class="row">
+    <div class="col">
+        <h1>Game Assets for everyone. Free of charge.</h1>
+        <p>
+            This is a platform for sharing public domain video game assets—
+            Sprites, textures, 3D models, music, sound effects, you name it.
+        </p>
+        <p>
+            Everything on this site is public domain.
+            You can use it all for any purpose, free of charge, forever.
+            No attribution required.
+        </p>
     </div>
-{%- endif -%}
-{%- endfor -%}
+</div>
+
+<div class="row">
+    <div class="col">
+        <h2>Browse Assets by Category</h2>
+        <div class="asset-categories gap-2">
+        {%- for category in categories -%}
+        {%- if category.parent -%}
+            <div>
+                <a href="/{{category.name}}" class="btn btn-outline-{{ category.color }} rounded-circle text-capitalize d-flex flex-column align-items-center justify-content-center">
+                    <i class="bi bi-{{category.icon}}"></i>
+                    <div>
+                        {{ category.plural_name if category.plural_name else category.name }}
+                    </div>
+                </a>
+            </div>
+        {%- endif -%}
+        {%- endfor -%}
+        </div>
+    </div>
 </div>
 
 <h2>Featured Assets</h2>
