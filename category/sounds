@@ -48,7 +48,7 @@
     </div>
   </div>
 </nav></header>
-  <main class="container mt-3 flex-shrink-0">
+  <main class="container mt-3 flex-shrink-0 mb-3 text-light">
     
 <h1 class="text-capitalize">sounds</h1>
 
@@ -60,17 +60,17 @@
         </h5>
     </div>
     </div>    <div class="card shadow">
-    <img class="card-img-top w-100" title="Gross Splattering Sound header image" src="/files/gross-splattering-sound-header.png" alt="Card image cap">
-    <div class="card-body d-flex align-items-center">
-        <h5 class="card-title">
-            <a href="/assets/sounds/gross-splattering-sound/" class="stretched-link text-decoration-none text-light">Gross Splattering Sound</a>
-        </h5>
-    </div>
-    </div>    <div class="card shadow">
     <img class="card-img-top w-100" title="Distorted Electronic Sound header image" src="/files/distorted-electronic-sound-header.png" alt="Card image cap">
     <div class="card-body d-flex align-items-center">
         <h5 class="card-title">
             <a href="/assets/sounds/distorted-electronic-sound/" class="stretched-link text-decoration-none text-light">Distorted Electronic Sound</a>
+        </h5>
+    </div>
+    </div>    <div class="card shadow">
+    <img class="card-img-top w-100" title="Gross Splattering Sound header image" src="/files/gross-splattering-sound-header.png" alt="Card image cap">
+    <div class="card-body d-flex align-items-center">
+        <h5 class="card-title">
+            <a href="/assets/sounds/gross-splattering-sound/" class="stretched-link text-decoration-none text-light">Gross Splattering Sound</a>
         </h5>
     </div>
     </div>    <div class="card shadow">
@@ -92,10 +92,7 @@
   <footer class="footer mt-auto py-3 border-top">
   <div class="container text-muted d-flex justify-content-between align-items-center">
     <div class="col-md-4 d-flex align-items-center">
-    <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
-        <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"/></svg>
-    </a>
-    <span class="mb-3 mb-md-0 text-muted">Not &copy; Josh Moody</span>
+        Not &copy; Josh Moody
     </div>
     <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
         <li class="ms-3"><a class="text-muted" href="/about" target="_blank"><i class="bi bi-info-circle"></i></a></li>
