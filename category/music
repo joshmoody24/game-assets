@@ -88,6 +88,13 @@
         </h5>
     </div>
     </div>    <div class="card shadow">
+    <img class="card-img-top w-100" title="Indoctrinate the Apostate header image" src="/files/indoctrinate-the-apostate-header.png" alt="Card image cap">
+    <div class="card-body d-flex align-items-center">
+        <h5 class="card-title">
+            <a href="/assets/music/indoctrinate-the-apostate/" class="stretched-link text-decoration-none text-light">Indoctrinate the Apostate</a>
+        </h5>
+    </div>
+    </div>    <div class="card shadow">
     <img class="card-img-top w-100" title="Inquizition (Spicy Edition) header image" src="/files/inquizition-spicy-edition-header.png" alt="Card image cap">
     <div class="card-body d-flex align-items-center">
         <h5 class="card-title">
@@ -113,13 +120,6 @@
     <div class="card-body d-flex align-items-center">
         <h5 class="card-title">
             <a href="/assets/music/pure-incompetence/" class="stretched-link text-decoration-none text-light">Pure Incompetence</a>
-        </h5>
-    </div>
-    </div>    <div class="card shadow">
-    <img class="card-img-top w-100" title="Indoctrinate the Apostate header image" src="/files/indoctrinate-the-apostate-header.png" alt="Card image cap">
-    <div class="card-body d-flex align-items-center">
-        <h5 class="card-title">
-            <a href="/assets/music/indoctrinate-the-apostate/" class="stretched-link text-decoration-none text-light">Indoctrinate the Apostate</a>
         </h5>
     </div>
     </div>    <div class="card shadow">
