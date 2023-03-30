@@ -1,6 +1,6 @@
 ---
 title: SciFi Hallway
-category: model
+tags: featured
 ext: blend
 ---
 A futuristic hallway that earned me 1st place in the Utah High School Digital Media Arts Festival. Now free for anyone to use.

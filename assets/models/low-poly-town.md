@@ -1,6 +1,6 @@
 ---
 title: Low Poly Town
-category: model
+tags: featured
 ext: blend
 ---
 A low poly 3D town. Used in Memetown USA but could easily be used in a variety of games.

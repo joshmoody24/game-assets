@@ -1,6 +1,6 @@
 ---
 title: Low Poly Cult Leader
-category: model
+tags: featured
 ext: blend
 ---
 A giant, super buff cloaked figure that is clearly the leader of a cult. Used as the final boss in Memetown USA.

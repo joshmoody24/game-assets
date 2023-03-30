@@ -7,7 +7,7 @@ layout: layouts/base.njk
     <div class="col">
         <h1>Game Assets for everyone. Free of charge.</h1>
         <p>
-            This is a platform for sharing public domain video game assets—
+            This site hosts public domain video game assets —
             Sprites, textures, 3D models, music, sound effects, you name it.
         </p>
         <p>
@@ -37,3 +37,8 @@ layout: layouts/base.njk
 </div>
 
 <h2>Featured Assets</h2>
+<div class="asset-grid gap-3">
+{%- for asset in collections.featured -%}
+{%- include 'asset-card.njk' -%}
+{%- endfor -%}
+</div>
