@@ -60,17 +60,17 @@
         </h5>
     </div>
     </div>    <div class="card shadow">
-    <img class="card-img-top w-100" title="City Sprites header image" src="/files/city-sprites-header.png" alt="Card image cap">
-    <div class="card-body d-flex align-items-center">
-        <h5 class="card-title">
-            <a href="/assets/sprites/city-sprites/" class="stretched-link text-decoration-none text-light">City Sprites</a>
-        </h5>
-    </div>
-    </div>    <div class="card shadow">
     <img class="card-img-top w-100" title="Capitol Building header image" src="/files/capitol-building-header.png" alt="Card image cap">
     <div class="card-body d-flex align-items-center">
         <h5 class="card-title">
             <a href="/assets/sprites/capitol-building/" class="stretched-link text-decoration-none text-light">Capitol Building</a>
+        </h5>
+    </div>
+    </div>    <div class="card shadow">
+    <img class="card-img-top w-100" title="City Sprites header image" src="/files/city-sprites-header.png" alt="Card image cap">
+    <div class="card-body d-flex align-items-center">
+        <h5 class="card-title">
+            <a href="/assets/sprites/city-sprites/" class="stretched-link text-decoration-none text-light">City Sprites</a>
         </h5>
     </div>
     </div>    <div class="card shadow">
@@ -102,17 +102,17 @@
         </h5>
     </div>
     </div>    <div class="card shadow">
-    <img class="card-img-top w-100" title="Pixel Art NPC Characters header image" src="/files/pixel-art-npc-characters-header.png" alt="Card image cap">
-    <div class="card-body d-flex align-items-center">
-        <h5 class="card-title">
-            <a href="/assets/sprites/pixel-art-npc-characters/" class="stretched-link text-decoration-none text-light">Pixel Art NPC Characters</a>
-        </h5>
-    </div>
-    </div>    <div class="card shadow">
     <img class="card-img-top w-100" title="Pixel Art Mouse Cursor header image" src="/files/pixel-art-mouse-cursor-header.png" alt="Card image cap">
     <div class="card-body d-flex align-items-center">
         <h5 class="card-title">
             <a href="/assets/sprites/pixel-art-mouse-cursor/" class="stretched-link text-decoration-none text-light">Pixel Art Mouse Cursor</a>
+        </h5>
+    </div>
+    </div>    <div class="card shadow">
+    <img class="card-img-top w-100" title="Pixel Art NPC Characters header image" src="/files/pixel-art-npc-characters-header.png" alt="Card image cap">
+    <div class="card-body d-flex align-items-center">
+        <h5 class="card-title">
+            <a href="/assets/sprites/pixel-art-npc-characters/" class="stretched-link text-decoration-none text-light">Pixel Art NPC Characters</a>
         </h5>
     </div>
     </div>    <div class="card shadow">
