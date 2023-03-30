@@ -6,7 +6,7 @@ pagination:
     alias: category
 permalink: "/category/{{ category.name | slugify }}/index.html"
 eleventyComputed:
-    title: "{{category.name }}"
+    title: "{{ category.name | capitalize }}"
 ---
 
 <h1 class="text-capitalize">{{ category.name }}</h1>
