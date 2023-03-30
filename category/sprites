@@ -81,17 +81,17 @@
         </h5>
     </div>
     </div>    <div class="card shadow">
-    <img class="card-img-top w-100" title="Pixel Art Explosion header image" src="/files/pixel-art-explosion-header.png" alt="Card image cap">
-    <div class="card-body d-flex align-items-center">
-        <h5 class="card-title">
-            <a href="/assets/sprites/pixel-art-explosion/" class="stretched-link text-decoration-none text-light">Pixel Art Explosion</a>
-        </h5>
-    </div>
-    </div>    <div class="card shadow">
     <img class="card-img-top w-100" title="Pixel Art Forest header image" src="/files/pixel-art-forest-header.png" alt="Card image cap">
     <div class="card-body d-flex align-items-center">
         <h5 class="card-title">
             <a href="/assets/sprites/pixel-art-forest/" class="stretched-link text-decoration-none text-light">Pixel Art Forest</a>
+        </h5>
+    </div>
+    </div>    <div class="card shadow">
+    <img class="card-img-top w-100" title="Pixel Art Explosion header image" src="/files/pixel-art-explosion-header.png" alt="Card image cap">
+    <div class="card-body d-flex align-items-center">
+        <h5 class="card-title">
+            <a href="/assets/sprites/pixel-art-explosion/" class="stretched-link text-decoration-none text-light">Pixel Art Explosion</a>
         </h5>
     </div>
     </div>    <div class="card shadow">
