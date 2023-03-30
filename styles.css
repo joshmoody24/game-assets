@@ -1,6 +1,7 @@
 .asset-categories {
     display: grid;
     grid-template-columns: 5rem 5rem 5rem 5rem 5rem;
+    overflow-x: auto;
 }
 
 .asset-categories > div {
@@ -19,4 +20,14 @@
 .asset-categories > div > a > div {
     display: block;
     font-size: 0.9rem;
+}
+
+.asset-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+}
+
+.asset-grid > div {
+    min-width: 15rem;
+    max-width: 30rem;
 }

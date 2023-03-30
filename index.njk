@@ -19,20 +19,18 @@ layout: layouts/base.njk
 </div>
 
 <div class="row">
-    <div class="col">
-        <h2>Browse Assets by Category</h2>
-        <div class="asset-categories gap-2">
+    <div class="col mr-auto">
+        <h2>Asset Categories</h2>
+        <div class="asset-categories gap-3 mt-3 mb-4">
         {%- for category in categories -%}
-        {%- if category.parent -%}
-            <div>
-                <a href="/{{category.name}}" class="btn btn-outline-{{ category.color }} rounded-circle text-capitalize d-flex flex-column align-items-center justify-content-center">
-                    <i class="bi bi-{{category.icon}}"></i>
-                    <div>
-                        {{ category.plural_name if category.plural_name else category.name }}
-                    </div>
-                </a>
-            </div>
-        {%- endif -%}
+        <div>
+            <a href="/category/{{category.name}}" class="btn btn-outline-{{ category.color }} rounded-circle text-capitalize d-flex flex-column align-items-center justify-content-center">
+                <i class="bi bi-{{category.icon}}"></i>
+                <div>
+                    {{ category.name }}
+                </div>
+            </a>
+        </div>
         {%- endfor -%}
         </div>
     </div>

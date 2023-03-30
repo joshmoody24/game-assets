@@ -4,16 +4,24 @@ pagination:
     data: categories
     size: 1
     alias: category
-permalink: "/{{ category.name | slugify }}"
+permalink: "/category/{{ category.name | slugify }}"
 eleventyComputed:
-    title: "{{category.display_name}}"
+    title: "{{category.name }}"
 ---
 
-<h1 class="text-capitalize">{{ category.display_name }}</h1>
-{%- for asset in game_assets -%}
-{%- if asset.category == category.name -%}
-<div>
-    {{ asset.title}}
+<h1 class="text-capitalize">{{ category.name }}</h1>
+
+<div class="asset-grid gap-3">
+    {%- for asset in collections.gameAssets -%}
+    {%- if category.name in asset.url -%}
+    <div class="card shadow">
+    <img class="card-img-top w-100" src="/files/{{ asset.fileSlug | slugify }}-header.png" alt="Card image cap">
+    <div class="card-body d-flex align-items-center">
+        <h5 class="card-title">
+            <a href="{{ asset.url }}" class="stretched-link text-decoration-none text-light">{{ asset.data.title }}</a>
+        </h5>
+    </div>
+    </div>
+    {%- endif -%}
+    {%- endfor -%}
 </div>
-{%- endif -%}
-{%- endfor -%}
