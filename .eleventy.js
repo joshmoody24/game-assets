@@ -3,6 +3,7 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy("images/**");
     eleventyConfig.addPassthroughCopy({"assets/**/*.blend": "files"});
     eleventyConfig.addPassthroughCopy({"assets/**/*.png": "files"});
+    eleventyConfig.addPassthroughCopy({"assets/**/*.webp": "files"});
     eleventyConfig.addPassthroughCopy({"assets/**/*.jpg": "files"});
     eleventyConfig.addPassthroughCopy({"assets/**/*.wav": "files"});
     eleventyConfig.addPassthroughCopy({"assets/**/*.mp3": "files"});
