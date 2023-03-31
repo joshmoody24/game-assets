@@ -8,7 +8,7 @@
       <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
         {%- for category in categories -%}
           <li class="nav-item">
-            <a class="nav-link {{ 'active' if category.name.toLowerCase() == page.url.replace('/category/', '') }} text-capitalize" href="/category/{{ category.name | slugify }}">
+            <a class="nav-link {{ 'active' if category.name.toLowerCase() in page.url }} text-capitalize" href="/category/{{ category.name | slugify }}">
               {{ category.name }}
             </a>
           </li>
