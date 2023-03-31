@@ -1,5 +1,5 @@
 ---
 title: Auditory Arachnophobia
-ext: blend
+ext: mp3
 ---
 An intense staccato song that sounds like a million tiny spiders are after you.
