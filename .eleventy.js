@@ -11,6 +11,6 @@ module.exports = function(eleventyConfig) {
 
     // Unsorted items (in whatever order they were added)
     eleventyConfig.addCollection("gameAssets", function(collectionApi) {
-        return collectionApi.getAll().filter(p => p.url.includes('assets'));
+        return collectionApi.getAll().filter(p => p.url.includes('assets')).sort((a,b) => a.title < b.title ? -1 : 1);
     });
 };
