@@ -17,7 +17,7 @@ layout: layouts/base.njk
         </audio>
         {% endif %}
 
-        <a class="btn btn-success" href="/files/{{ title | slugify }}.{{ ext | slugify }}" download="{{ title }}.{{ ext }}">
+        <a class="btn btn-success" href="/files/{{ title | slugify }}.{{ ext | slugify }}" download="{{ title }}.{{ ext }}" data-umami-event="Download {{ title }}">
             Download Asset
         </a>
     </div>
