@@ -8,7 +8,7 @@ async function generateImages() {
     const THUMBNAIL = 400;
     const FULL = 1280;
 
-	let options = {
+	const options = {
 		widths: [THUMBNAIL,FULL],
         outputDir: "_site/img/",
 		formats: ['webp'],
@@ -37,6 +37,7 @@ async function generateImages() {
 module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy("styles.css");
     eleventyConfig.addPassthroughCopy("images/**");
+    eleventyConfig.addPassthroughCopy("branding/**");
     eleventyConfig.addPassthroughCopy({"assets/**/*.blend": "files"});
     eleventyConfig.addPassthroughCopy({"assets/**/*.png": "files"});
     eleventyConfig.addPassthroughCopy({"assets/**/*.webp": "img"});
