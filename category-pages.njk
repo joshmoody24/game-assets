@@ -7,6 +7,7 @@ pagination:
 permalink: "/category/{{ category.name | slugify }}/index.html"
 eleventyComputed:
     title: "{{ category.name | capitalize }}"
+    description: "Public Domain {{ category.name | capitalize }} for Game Developers"
 ---
 
 <h1 class="text-capitalize">{{ category.name }}</h1>

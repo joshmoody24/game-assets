@@ -1,10 +1,11 @@
 ---
 layout: 'layouts/base.njk'
 title: About
+description: "This website hosts public domain video game assets to make life easier for small-time game developers. Creator: Josh Moody"
 ---
 # About
 
-GameAsset.org was created by Josh Moody, a college student and amateur game developer who despises U.S. copyright law.
+This site was created by Josh Moody, a college student and amateur game developer who despises U.S. copyright law.
 
 Copyright law is overpowered and it sucks. I could write a book about how awful it is but [somebody already did that.](https://lessig.org/product/free-culture/) So, instead of listening to me rant about it, check out the e-book "Free Culture" by Lawrence Lessig.
 
