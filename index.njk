@@ -28,7 +28,7 @@ layout: layouts/base.njk
         <div class="asset-categories gap-3 mt-3 mb-4">
         {%- for category in categories -%}
         <div>
-            <a href="/category/{{category.name}}" class="btn btn-outline-{{ category.color }} rounded-circle text-capitalize d-flex flex-column align-items-center justify-content-center">
+            <a href="/category/{{category.name}}" style="filter:brightness(1.3) contrast(1.5) saturate(1.1);" class="btn btn-outline-{{ category.color }} rounded-circle text-capitalize d-flex flex-column align-items-center justify-content-center">
                 <i class="bi bi-{{category.icon}}"></i>
                 <div>
                     {{ category.name }}
