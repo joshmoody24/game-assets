@@ -14,18 +14,13 @@ layout: layouts/base.njk
             You can use it all for any purpose, free of charge, forever.
             No attribution required.
         </p>
-        <p>
-            This site hosts
-            <span class="fw-bolder">{{ collections.gameAssets | length }}</span>
-            game assets, with more on the way.
-        </p>
     </div>
 </div>
 
 <div class="row">
     <div class="col mr-auto">
         <h2>Asset Categories</h2>
-        <div class="asset-categories gap-3 mt-2 mb-3">
+        <div class="asset-categories gap-3 mt-2 mb-1">
         {%- for category in categories -%}
         <div>
             <a href="/category/{{category.name}}" class="btn rounded-circle text-capitalize d-flex flex-column align-items-center justify-content-center">
@@ -41,8 +36,14 @@ layout: layouts/base.njk
 </div>
 
 <h2>Featured Assets</h2>
-<div class="asset-grid gap-3">
+<div class="asset-grid gap-3 mb-4">
 {%- for asset in collections.featured -%}
 {%- include 'asset-card.njk' -%}
 {%- endfor -%}
 </div>
+
+<p>
+    This site hosts
+    <span class="fw-bolder">{{ collections.gameAssets | length }}</span>
+    game assets, with more on the way.
+</p>
