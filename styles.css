@@ -39,3 +39,7 @@
     margin-right: 1rem;
     image-rendering: pixelated;
 }
+
+.asset-img {
+    aspect-ratio: calc(16/9);
+}
