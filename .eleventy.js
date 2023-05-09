@@ -5,7 +5,7 @@ async function generateImages() {
 
     console.log("beginning thumbnail generation")
 
-    const THUMBNAIL = 480;
+    const THUMBNAIL = 420;
     const FULL = 1280;
 
 	const options = {
