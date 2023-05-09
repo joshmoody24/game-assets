@@ -12,7 +12,8 @@ module.exports = async function() {
     // Add in your file types here
     const sourceContent = [
         '**/*.njk',
-        '**/*.json'
+        '**/*.json',
+        '**/css-fix.txt',
     ];
 
     cssFiles.forEach(sourcePath => {
