@@ -25,7 +25,7 @@ layout: layouts/base.njk
         {%- for category in categories -%}
         <div>
             <a href="/category/{{category.name}}" class="btn rounded-circle text-capitalize d-flex flex-column align-items-center justify-content-center">
-                <i class="bi bi-{{category.icon}}"></i>
+                <i class="bi {{category.icon}}"></i>
                 <div>
                     {{ category.name }}
                 </div>

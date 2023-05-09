@@ -36,6 +36,8 @@ async function generateImages() {
 
 module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy("styles.css");
+    eleventyConfig.addPassthroughCopy({"bootstrap/js/*.js": "bootstrap/js"});
+    eleventyConfig.addPassthroughCopy({"bootstrap/css/fonts/*": "bootstrap/css/fonts"});
     eleventyConfig.addPassthroughCopy("images/**");
     eleventyConfig.addPassthroughCopy("branding/**");
     eleventyConfig.addPassthroughCopy({"assets/**/*.blend": "files"});

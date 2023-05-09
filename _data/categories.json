@@ -2,21 +2,21 @@
     {
         "name": "sprites",
         "color": "success",
-        "icon": "brush"
+        "icon": "bi-brush"
     },
     {
         "name": "models",
         "color": "primary",
-        "icon": "box"
+        "icon": "bi-box"
     },
     {
         "name": "music",
         "color": "danger",
-        "icon": "music-note-beamed"
+        "icon": "bi-music-note-beamed"
     },
     {
         "name": "sounds",
         "color": "warning",
-        "icon": "soundwave"
+        "icon": "bi-soundwave"
     }
 ]

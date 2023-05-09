@@ -21,9 +21,12 @@
   "homepage": "https://github.com/joshmoody24/game-assets#readme",
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1",
-    "@11ty/eleventy-img": "^3.1.0"
+    "@11ty/eleventy-img": "^3.1.0",
+    "@fullhuman/postcss-purgecss": "^5.0.0",
+    "postcss": "^8.4.23"
   },
   "dependencies": {
+    "clean-css": "^5.3.2",
     "glob": "^8.1.0",
     "glob-promise": "^6.0.2"
   }
