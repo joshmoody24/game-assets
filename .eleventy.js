@@ -47,6 +47,7 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy({"assets/**/*.wav": "files"});
     eleventyConfig.addPassthroughCopy({"assets/**/*.mp3": "files"});
     eleventyConfig.addPassthroughCopy({"assets/**/*.ogg": "files"});
+    eleventyConfig.addPassthroughCopy("robots.txt")
 
     // Unsorted items (in whatever order they were added)
     eleventyConfig.addCollection("gameAssets", function(collectionApi) {
