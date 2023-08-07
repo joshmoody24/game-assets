@@ -1,6 +1,6 @@
 ---
 title: Assault Rifle
-description: A 3D assault rifle game asset with both high- and low-poly versions.
+description: A 3D model of an assault rifle with both high- and low-poly versions.
 tags: featured
 ext: blend
 ---

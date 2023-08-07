@@ -2,6 +2,7 @@
 title: Office Building
 ext: blend
 tags: featured
+description: A 3D model of a bank/office building originally intended for a heist game.
 ---
 A 3d model of a bank/office building that was originally intended for use in a heist game. Sadly, the game was later abandoned. But now you can use this office building for anything you want!
 
