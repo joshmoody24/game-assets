@@ -2,4 +2,4 @@
 title: Animated Wooden Door
 ext: blend
 ---
-A simple light that attaches to the ceiling.
+A simple wooden door with an opening animation.
