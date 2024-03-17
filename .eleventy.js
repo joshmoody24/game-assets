@@ -1,5 +1,6 @@
 const Image = require("@11ty/eleventy-img");
 const glob = require("glob-promise");
+const path = require('path');
 
 async function generateImages() {
 
@@ -49,9 +50,24 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy({"assets/**/*.ogg": "files"});
     eleventyConfig.addPassthroughCopy("robots.txt")
 
-    // Unsorted items (in whatever order they were added)
     eleventyConfig.addCollection("gameAssets", function(collectionApi) {
-        return collectionApi.getAll().filter(p => p.url.includes('assets')).sort((a,b) => a.title < b.title ? -1 : 1);
+                // Use getAll to fetch all items and then filter or manipulate as needed
+                const allItems = collectionApi.getAll();
+        
+                // Log the total number of items found
+                console.log("Total items in collection:", allItems.length);
+                console.log(allItems.filter(a => !a.url.includes('assets')).map(a => a.url));
+        const assets = collectionApi.getAll().filter(item => {
+            const assetPath = path.dirname(item.filePathStem);
+            const category = assetPath.split('/').pop();
+            return item.url.includes('assets') && category;
+        }).map(item => {
+            const assetPath = path.dirname(item.filePathStem);
+            const category = assetPath.split('/').pop();
+            item.data.category = category;
+            return item;
+        }).sort((a, b) => a.data.title < b.data.title ? -1 : 1);
+        return assets;
     });
 
     eleventyConfig.on('beforeBuild', async () => {

@@ -1,6 +1,7 @@
 ---
 layout: layouts/base.njk
 pagination:
+    addAllPagesToCollections: true
     data: categories
     size: 1
     alias: category
@@ -10,12 +11,22 @@ eleventyComputed:
     description: "Public Domain {{ category.name | capitalize }} for Game Developers"
 ---
 
+{% for category in categories %}
+    <p>Processing category: {{ category.name }}</p>
+    {%- for asset in collections.gameAssets -%}
+        {%- if category.name in asset.url -%}
+            <p>Including asset: {{ asset.url }}</p>
+        {%- endif -%}
+    {%- endfor -%}
+{% endfor %}
+
+
 <h1 class="text-capitalize">{{ category.name }}</h1>
 
 <div class="asset-grid gap-3">
     {%- for asset in collections.gameAssets -%}
-    {%- if category.name in asset.url -%}
-    {%- include 'asset-card.njk' -%}
-    {%- endif -%}
+        {%- if category.name in asset.url -%}
+            {%- include 'asset-card.njk' -%}
+        {%- endif -%}
     {%- endfor -%}
 </div>

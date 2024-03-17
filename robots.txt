@@ -1,2 +1,4 @@
 User-agent: *
 Disallow:
+
+Sitemap: https://gameassets.joshmoody.org/sitemap.xml
